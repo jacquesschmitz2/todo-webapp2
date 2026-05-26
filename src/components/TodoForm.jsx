@@ -19,7 +19,7 @@ export default function TodoForm({ onAdd }) {
         placeholder="Descreva o seu to-do..."
         value={description}
         onChange={(e) => setDescription(e.target.value)}
-        data-testid="todo-inputtt"
+        data-testid="todo-input"
       />
       <button type="submit" className="btn btn-primary" data-testid="add-todo-btn">
         Adicionar
