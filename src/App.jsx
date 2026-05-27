@@ -7,9 +7,10 @@ export default function App() {
   const [todos, setTodos] = useState([])
 
   function addTodo(description) {
+    let descriptions = "batata"
     const newTodo = {
       id: crypto.randomUUID(),
-      description,
+      descriptions,
       done: false,
     }
     setTodos((prev) => [newTodo, ...prev])
